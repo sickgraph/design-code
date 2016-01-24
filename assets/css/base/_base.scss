@@ -1,6 +1,8 @@
 // Typography
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,400italic,600italic);
 
-.gigantic, .huge, .large, .bigger, .big, 
+
+.gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: $accent-color;
   font-weight: bold;
@@ -68,7 +70,7 @@ a {
   text-decoration: none;
   outline: 0;
 }
-  
+
 a:hover, a:focus {
   color: lighten($link-color, 20%);
 }
@@ -80,11 +82,11 @@ a:hover, a:focus {
 ::selection {
   background: $selection-color;
 }
-  
+
 ::-moz-selection {
   background: $selection-color;
 }
-  
+
 img::selection {
   background: transparent;
 }
